@@ -159,7 +159,7 @@ ul {
 }
 
 .product-card {
-	background-image: url(/images/background.png);
+	background-image: url(../images/background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 13px 0 38px;
@@ -236,7 +236,7 @@ ul {
 	color: #e9bd8c;
 }
 .first-order {
-	background-image: url(/images/first_order.jpg);
+	background-image: url(../images/first_order.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 70px 0;
@@ -331,15 +331,15 @@ ul {
 }
 
 .mafin {
-	background-image: url(/images/cupcake.png);
+	background-image: url(../images/cupcake.png);
 }
 
 .cake {
-	background-image: url(/images/tort.png);
+	background-image: url(../images/tort.png);
 }
 
 .peace-cake {
-	background-image: url(/images/peace-tort.png);
+	background-image: url(../images/peace-tort.png);
 }
 
 .bread {
@@ -347,11 +347,11 @@ ul {
 }
 
 .peace-cake-two {
-	background-image: url(/images/tort-peace.png);
+	background-image: url(../images/tort-peace.png);
 }
 
 .mafin-two {
-	background-image: url(/images/mafin.png);
+	background-image: url(../images/mafin.png);
 }
 @media screen and (min-width: 1200px) {
 		.container {
@@ -430,7 +430,7 @@ h1 {
 
 
 	.about-us{
-		background-image: url(/images/about-us.jpg);
+		background-image: url(../images/about-us.jpg);
 		height: 454px;
 		
 	}
@@ -475,17 +475,17 @@ h1 {
 	}
 	
 	.puff{
-		background-image: url(/images/puff.png);
+		background-image: url(../images/puff.png);
 	}
 	.doughnuts{
-		background-image: url(/images/doughnuts.png);
+		background-image: url(../images/doughnuts.png);
 	}
 	.brownies{
-		background-image: url(/images/brownies.png);
+		background-image: url(../images/brownies.png);
 	}
 	footer {
 		padding: 30px 0 30px;
-		background-image: url(/images/footer.jpg);
+		background-image: url(../images/footer.jpg);
 		background-repeat: no-repeat;
 	}
 	.footer-social{
@@ -568,10 +568,10 @@ h1 {
 		margin-right: 20px;
 	}
 	.recent-image-one{
-		background-image: url(/images/footer_1.png);
+		background-image: url(../images/footer_1.png);
 	}
 	.recent-image-two{
-		background-image: url(/images/footer_2.png);
+		background-image: url(../images/footer_2.png);
 	}
 	.recent-news{
 		display: flex;
