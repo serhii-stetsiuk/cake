@@ -725,9 +725,6 @@ h1 {
 	.container-sweet {
 	   height: 535px;
    }
-.picture-food-one {
-	width: 300px;
-}
 
 .general-title {
 	margin-bottom: 130px;
@@ -831,7 +828,9 @@ h1 {
 .footer-contact-info-last {
 	min-width: 256px;
 }
-
+.picture-food-one {
+	width: 300px;
+}
 }
 
 
