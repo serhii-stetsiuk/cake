@@ -731,7 +731,9 @@ h1 {
 .general-title {
 	margin-bottom: 130px;
 }
-
+ .products-photo-cards {
+ 	gap: 20px;
+ }
 .products-cards {
 	flex-direction: row;
 }
