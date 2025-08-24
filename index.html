@@ -26,25 +26,50 @@
         <div class="container">
         <nav>
 			 <a href="index.html"><img src="./images/modri.png" alt="" /></a>
-          <a class="b-menu" href="index.html"><svg class="burger-bottom" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="none" viewBox="0 0 24 24"><path stroke="#000" stroke-linecap="round" stroke-width="2" d="M4 18h16M4 12h16M4 6h16"/></svg></a>
+			 <button type="button" class="b-menu" data-open><svg class="b-menu-close-icon" width="30" height="30">
+				<use href="./images/icons.svg#icon-burger-menu"></use>
+			 </svg></button>
+			 
+			 <div class="burger-menu" data-modal>
+				 <a class="burger-icon" href="index.html"><img src="./images/modri.png" alt="" /></a>
+				<button type="button" class="b-menu b-menu-close" data-close><svg class="b-menu-close-icon" width="20" height="20">
+				  <use href="./images/icons.svg#icon-close"></use>
+				</svg></button>
+				<ul class="top-nav top-nav-burger">
+            <li class="top-nav-list">
+              <a class="top-nav-link" href="index.html">Home</a>
+            </li>
+            <li class="top-nav-list">
+              <a class="top-nav-link" href="#top-products">Top Products</a>
+            </li>
+            <li class="top-nav-list">
+              <a class="top-nav-link" href="#explore">Explore More </a>
+            </li>
+            <li class="top-nav-list">
+              <a class="top-nav-link" href="#featured">featured Treats</a>
+            </li>
+            <li class="top-nav-list">
+              <a class="top-nav-link" href="#contact">Contact Us</a>
+            </li>
+          </ul>
+			 </div>
 			 <ul class="top-nav">
             <li class="top-nav-list">
               <a class="top-nav-link" href="index.html">Home</a>
             </li>
             <li class="top-nav-list">
-              <a class="top-nav-link" href="">Top Products</a>
+              <a class="top-nav-link" href="#top-products">Top Products</a>
             </li>
             <li class="top-nav-list">
-              <a class="top-nav-link" href="">Explore More </a>
+              <a class="top-nav-link" href="#explore">Explore More </a>
             </li>
             <li class="top-nav-list">
-              <a class="top-nav-link" href="">featured Treats</a>
+              <a class="top-nav-link" href="#featured">featured Treats</a>
             </li>
             <li class="top-nav-list">
-              <a class="top-nav-link" href="">Contact Us</a>
+              <a class="top-nav-link" href="#contact">Contact Us</a>
             </li>
           </ul>
-			 
         </nav>
       </header>
       <main class="top-page">
@@ -57,11 +82,11 @@
 				</div>
 				<div class="top-button">
 					<button type="button" class="shop-now">Shop Now</button>
-					<a class="learn-more" href="">Learn More</a>
+					<a class="learn-more" href="#first">Learn More</a>
 				</div>
 				</div>
 			</section>
-			<section class="all-sections top-products">
+			<section class="all-sections top-products" id="top-products">
 				 <div class="container">
 						<h2 class="general-title">Top Products</h2>
 				<ul class="products-cards">
@@ -92,7 +117,7 @@
 				 </div>
 			
 			</section>
-			<section class="first-order">
+			<section class="first-order" id="first">
 				<div class="container">
 					<div class="first-order-of">
 						<h3 class="first-order-item">20% Off Your First Order</h3>
@@ -101,7 +126,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="all-sections">
+			<section class="all-sections" id="explore">
 				 <div class="container">
 					<h2 class="general-title">Explore More</h2>
 					<div class="products-photo">
@@ -125,16 +150,16 @@
 				</div>
 				 
 			</section>
-			<section class="about-us">
+			<section class="about-us" id="about">
 				<div class="container">
-					<div class="about-us-block">
-						<h3 class="about-us-item">About us</h3>
-						<p class="about-us-text">Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis.</p>
+					<div class="about-us-block first-order-of">
+						<h3 class="about-us-item first-order-item">About us</h3>
+						<p class="about-us-text first-order-text">Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis.</p>
 						<button type="button" class="shop-now about-us-button">Read More</button>
 					</div>
 				</div>
 			</section>
-			<section class="all-sections featured-section">
+			<section class="all-sections featured-section" id="featured">
 				<div class="container">
 					<h2 class="general-title">Featured treats</h2>
 						<ul class="products-photo-cards">
@@ -145,11 +170,11 @@
 				</div>
 			</section>
 		</main>
-      <footer>
+      <footer id="contact">
 			<div class="container">
 				<div class="footer-container">
 					 <div class="footer-social">
-						<a href="index.html"><img src="./images/modri.png" alt="" /></a>
+						<a class="banner-logo" href="index.html"><img src="./images/modri.png" alt="" /></a>
 						<div class="footer-social-item">
 							<p class="folow">Follow us</p>
 							<ul class="footer-social-icons">
@@ -186,7 +211,7 @@
                         </li>
 						</ul>
 						</li>
-						<li class="footer-contact-info"><h4>Recent News</h4>
+						<li class="footer-contact-info footer-contact-info-last"><h4>Recent News</h4>
 						<ul class="recent">
 							<li class="recent-news"><div class="recent-image recent-image-one"></div><div class="recent-news-text"><p class="recent-data">June 14,2024</p><p class="recent-name">Puff pastry bliss.</p></div></li>
 							<li class="recent-news"><div class="recent-image recent-image-two"></div><div class="recent-news-text"><p class="recent-data">June 14,2024</p><p class="recent-name">Puff pastry bliss.</p></div></li>
@@ -198,5 +223,6 @@
 		</footer>
 	</div>
     </div>
+	 <script src="./js/menu.js" type="module"></script>
   </body>
 </html>
