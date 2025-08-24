@@ -110,6 +110,7 @@ body {
 	.burger-menu{
 		display: none;
 		position: fixed;
+		overflow-y: auto;
 		top: 0;
 		left: 0;
 		width: 100%;
@@ -118,7 +119,7 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 		z-index: 999;
-		overflow: hidden;
+		
 	}
 	.is-active {
 		display: block;
