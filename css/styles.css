@@ -117,6 +117,7 @@ body {
 		background-repeat: no-repeat;
 		background-size: cover;
 		z-index: 999;
+		overflow: hidden;
 	}
 	.is-active {
 		display: block;
@@ -140,6 +141,9 @@ body {
 	.burger-bottom{
 		display: block;
 	}
+	body.lock {
+    overflow: hidden;
+  }
 	.container-sweet {
 	background-image: url(../images/rectangle.jpg);
 	width: 100%;
