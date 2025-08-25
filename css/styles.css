@@ -240,7 +240,7 @@ body {
 	padding: 13px 0 38px;
 	border-radius: 8px;
 	max-width: 360px;
-	
+	margin: 0 auto;
 }
 
 .picture-food {
@@ -688,7 +688,9 @@ gap: 60px;
 .products-cards, .recent, .top-button {
 	flex-direction: row;
 }
-
+.product-card {
+	margin: 0;
+}
 .b-menu {
 	display: none;
 }
