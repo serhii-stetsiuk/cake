@@ -226,7 +226,7 @@ body {
 .products-cards {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: center;
 	flex-wrap: wrap;
 	gap: 20px;
 }
@@ -238,7 +238,7 @@ body {
 	padding: 13px 0 38px;
 	border-radius: 8px;
 	max-width: 360px;
-	margin: 0 auto;
+	
 }
 
 .picture-food {
@@ -389,24 +389,26 @@ body {
 	transition: 0.3s ease-in-out;
 }
 
-.products-photo-cards {
+.products-photo-cards, .products-photo-cards-treats {
 	display: flex;
 	justify-content: center;
 	flex-direction: row;
 	flex-wrap: wrap;
-	gap: 80px;
+	gap: 20px;
 	
 }
 
-.products-photo-card {
+.products-photo-card, .products-photo-card-treats {
 	background-repeat: no-repeat;
 	background-size: cover;
 	width: 350px;
 	height: 350px;
 	border-radius: 8px;
-	margin: 0 auto;
+	/* margin: 0 auto; */
 }
-
+ 	.products-photo-cards-treats{
+	gap: 60px;
+}
 .mafin {
 	background-image: url(../images/cupcake.png);
 }
@@ -685,17 +687,19 @@ h1 {
 	text-align: left;
 	
 }
+	.products-photo-cards-treats{
+	gap: 60px;
+}
+.products-photo-card-treats{
+	flex-basis: calc((100% - 60px));
+}
 }
 @media screen and (min-width: 800px) {
-	 .products-photo-cards{
-		gap: 60px;
-	}
+
 .products-cards {
 	flex-direction: row;
 }
-	.product-card {
-	flex-basis: calc((100% - 60px)/2);
-}
+
 .recent {
 	flex-direction: row;
 }
@@ -714,9 +718,9 @@ h1 {
 .top-button {
 	flex-direction: row;
 }
-
-
-
+.products-photo-card-treats{
+	flex-basis: calc((100% - 60px)/2);
+}
 }
 
 @media screen and (min-width: 1200px) {
@@ -749,9 +753,14 @@ h1 {
 .general-title {
 	margin-bottom: 130px;
 }
- .products-photo-cards {
- 	gap: 20px;
- }
+ 	.products-photo-cards-treats{
+	gap: 20px;
+}
+
+.products-photo-card-treats {
+	flex-basis: calc((100% - 2*20px) / 3);
+
+}
 .products-cards {
 	flex-direction: row;
 }
