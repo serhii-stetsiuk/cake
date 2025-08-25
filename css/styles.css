@@ -160,20 +160,23 @@ body {
 		color: #e9bd8c;
 		margin: 0;
 		margin-bottom: -10px;
+		text-align: center;
 	}
 	h1{
 		font-family: var(--third-family);
 		font-weight: 400;
-		font-size: 50px;
+		font-size:35px;
 		color: #f5f5f5;
 		max-width: 424px;
 		line-height: 1.3;
 		margin-bottom: 101px;
+		text-align: center;
 	}
 	.top-button{
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		align-items: center;
+		gap: 20px;
 	}
 	.shop-now{
 		border: 1px solid #000;
@@ -186,7 +189,6 @@ body {
 		font-weight: 600;
 		font-size: 20px;
 		color: #f5f5f5;
-		
 		cursor: pointer;
 		transition: 0.3s ease-in-out;
 		margin-bottom: 20px;
@@ -275,7 +277,7 @@ body {
 
 .title-eat {
 	display: flex;
-	justify-content: center;
+	justify-content: space-between;
 	margin: 0 29px;
 }
 
@@ -358,6 +360,7 @@ body {
 .products-photo-list {
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	flex-wrap: wrap;
 	gap: 20px;
 	max-width: 698px;
@@ -649,6 +652,7 @@ footer {
 	color: #737373;
 	margin: 0 auto;
 	max-width: 458px;
+	text-align: center;
 }
 .banner-logo {
 	display: none;
@@ -659,6 +663,26 @@ footer {
 }
 .about-us-item {
 	color: #f5f5f5;
+	
+}
+.delicious {
+	font-family: var(--font-family);
+	font-weight: 600;
+	font-size: 24px;
+	color: #e9bd8c;
+	margin: 0;
+	margin-bottom: -10px;
+	text-align: left;
+}
+h1 {
+	font-family: var(--third-family);
+	font-weight: 400;
+	font-size: 74px;
+	color: #f5f5f5;
+	max-width: 424px;
+	line-height: 1.3;
+	margin-bottom: 101px;
+	text-align: left;
 	
 }
 }
@@ -672,6 +696,26 @@ footer {
 	.product-card {
 	flex-basis: calc((100% - 60px)/2);
 }
+.recent {
+	flex-direction: row;
+}
+.b-menu {
+	display: none;
+}
+
+.top-nav {
+	display: flex;
+
+}
+.top-nav-link {
+	font-weight: 600;
+	font-size: 15px;
+}
+.top-button {
+	flex-direction: row;
+}
+
+
 
 }
 
@@ -679,42 +723,18 @@ footer {
 	.container {
 		padding: 0 81px;
 	}
-	.b-menu{
-		display: none;
-	}
-	.top-nav {
-	display: flex;
-	
-}
-	.top-button{
-		flex-direction: row;
-	}
-	
-   
-.delicious {
-	font-family: var(--font-family);
-	font-weight: 600;
+	.top-nav-link {
 	font-size: 24px;
-	color: #e9bd8c;
-	margin: 0;
-	margin-bottom: -10px;
+
 }
-h1 {
-	font-family: var(--third-family);
-	font-weight: 400;
-	font-size: 74px;
-	color: #f5f5f5;
-	max-width: 424px;
-	line-height: 1.3;
-	margin-bottom: 101px;
-}
+
+
 .picture-eat {
 	width: 39px;
 	height: 39px;
 }
 .shop-now {
 	font-size: 24px;
-	margin-right: 19px;
 }
 	.learn-more{
 		font-size: 24px;
@@ -743,16 +763,13 @@ h1 {
 
 }
 .price {
-	margin: 0 29px 47px;
+	margin: 0 30px 20px;
 }
 .picture-food {
 	width: 226px;
 	height: 223px;
 }
-.price {
 
-	margin: 0 18px 20px;
-}
 .products-photo-card {
 	flex-basis: calc((100% - 2 * 20px) / 3);
 	
