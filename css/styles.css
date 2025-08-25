@@ -575,7 +575,9 @@ footer {
 .footer-contact-info a {
 	display: block;
 }
-
+.footer-contact-info p {
+	max-width: 200px;
+}
 .footer-contact-info a:hover {
 	color: #e9bd8d;
 }
